@@ -1,0 +1,52 @@
+body {
+  background-color: #F7FAD8;
+}
+
+div {
+  border-radius: 1em;
+  margin: 0 auto;
+}
+
+input  
+{ 
+ border-radius: 1em;
+}
+
+.index {
+  background-color: #28ABE3;
+  width: 50%;
+  margin-top: 10%;
+}
+
+.title {
+  text-align: center;
+  font-size: x-large;
+  color: white;
+}
+
+.roll-form {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  display: block;
+}
+
+.roll-form-input {
+  margin: 0 auto;
+  display: block;
+}
+
+.output {
+  text-align: center;
+  font-weight: bold;
+  color: #083B73;
+}
+
+.older-1 {
+  font-weight: lighter;
+  color: #085B93;
+}
+
+.older-2, .older-3 {
+  font-weight: lighter;
+  color: #088BC3;
+}
