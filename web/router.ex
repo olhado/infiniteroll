@@ -6,6 +6,7 @@ defmodule Infiniteroll.Router do
     pipe_through :browser
 
     get "/", Infiniteroll.PageController, :index, as: :pages
+    post "/roll", Infiniteroll.PageController, :roll
   end
 
   # Other scopes may use custom stacks.

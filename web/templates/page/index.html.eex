@@ -1,9 +1,12 @@
-<div class="index">
+<div class="main">
   <div class="title">Roll!</div>
   <form class="roll-form">
     <input class="roll-form-input" type="text" name="roll_expr">
   </form>
   <div class="output">
-    <p class="current">Output1</p>
+    <p class="current">Current Output</p>
+    <p class="older-1"></p>
+    <p class="older-2"></p>
+    <p class="older-3"></p>
   </div>
 </div>

@@ -12,10 +12,10 @@ input
  border-radius: 1em;
 }
 
-.index {
+.main {
   background-color: #28ABE3;
   width: 50%;
-  margin-top: 10%;
+  margin-top: 16em;
 }
 
 .title {
@@ -33,6 +33,8 @@ input
 .roll-form-input {
   margin: 0 auto;
   display: block;
+  width: 50%;
+  text-align: center;
 }
 
 .output {
