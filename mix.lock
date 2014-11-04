@@ -1,7 +1,7 @@
 %{"conform": {:hex, :conform, "0.10.5"},
   "cowboy": {:hex, :cowboy, "1.0.0"},
   "cowlib": {:hex, :cowlib, "1.0.0"},
-  "dicer": {:hex, :dicer, "0.1.0"},
+  "dicer": {:hex, :dicer, "0.2.0"},
   "exrm": {:hex, :exrm, "0.14.11"},
   "linguist": {:hex, :linguist, "0.1.2"},
   "phoenix": {:hex, :phoenix, "0.5.0"},
