@@ -12,6 +12,6 @@
   </head>
 
   <body>
-      <%= @inner %>
+<%= @inner %>
   </body>
 </html>

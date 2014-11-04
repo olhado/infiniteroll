@@ -43,6 +43,10 @@ input
   color: #083B73;
 }
 
+.output-header {
+  text-decoration: underline;
+}
+
 .older-1 {
   font-weight: lighter;
   color: #085B93;
