@@ -11,6 +11,9 @@ defmodule Infiniteroll do
       # worker(Infiniteroll.Worker, [arg1, arg2, arg3])
     ]
 
+    # Start up router eplicitly to support exrm release mechanisms
+    Infiniteroll.Router.start
+
     # See http://elixir-lang.org/docs/stable/elixir/Supervisor.html
     # for other strategies and supported options
     opts = [strategy: :one_for_one, name: Infiniteroll.Supervisor]
