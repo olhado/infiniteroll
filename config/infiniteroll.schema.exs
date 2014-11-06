@@ -4,13 +4,19 @@
       doc: "Provide documentation for phoenix.Elixir.Infiniteroll.Router.url.host here.",
       to: "phoenix.Elixir.Infiniteroll.Router.url.host",
       datatype: :binary,
-      default: "forum.supahmove.com"
+      default: "infiniteroll.supahmove.com"
     ],
     "phoenix.Elixir.Infiniteroll.Router.http.port": [
       doc: "Provide documentation for phoenix.Elixir.Infiniteroll.Router.http.port here.",
       to: "phoenix.Elixir.Infiniteroll.Router.http.port",
       datatype: :binary,
       default: "8888"
+    ],
+    "phoenix.Elixir.Infiniteroll.Router.http.proxy_port": [
+      doc: "Provide documentation for phoenix.Elixir.Infiniteroll.Router.http.proxy_port here.",
+      to: "phoenix.Elixir.Infiniteroll.Router.http.proxy_port",
+      datatype: :integer,
+      default: 80
     ],
     "phoenix.Elixir.Infiniteroll.Router.https": [
       doc: "Provide documentation for phoenix.Elixir.Infiniteroll.Router.https here.",

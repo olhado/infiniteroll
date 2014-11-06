@@ -12,8 +12,8 @@ use Mix.Config
 # disk for the key and cert.
 
 config :phoenix, Infiniteroll.Router,
-  url: [host: "example.com"],
-  http: [port: System.get_env("PORT")],
+  url: [host: "infiniteroll.supahmove.com"],
+  http: [port: System.get_env("PORT"), proxy_port: "80"],
   secret_key_base: "VEn9fCSbJRqcZ+QJz8JCoBzOJXDX9A2EFKqIjLv1fX8rxaWSDV3Mn02itHuImZYEmAbMtENx6A6U6GhzOAPq6A=="
 
 config :logger, :console,
