@@ -9,6 +9,7 @@ defmodule Infiniteroll do
     children = [
       # Define workers and child supervisors to be supervised
       # worker(Infiniteroll.Worker, [arg1, arg2, arg3])
+      # worker(Infiniteroll.Router, [], function: :start)
     ]
 
     # Start up router eplicitly to support exrm release mechanisms
