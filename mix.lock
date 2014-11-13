@@ -1,10 +1,11 @@
 %{"conform": {:hex, :conform, "0.10.5"},
   "cowboy": {:hex, :cowboy, "1.0.0"},
   "cowlib": {:hex, :cowlib, "1.0.0"},
-  "dicer": {:hex, :dicer, "0.2.0"},
-  "exrm": {:hex, :exrm, "0.14.11"},
+  "dicer": {:hex, :dicer, "0.3.0"},
+  "exrm": {:hex, :exrm, "0.14.12"},
   "linguist": {:hex, :linguist, "0.1.2"},
   "phoenix": {:hex, :phoenix, "0.5.0"},
-  "plug": {:hex, :plug, "0.8.1"},
+  "plug": {:hex, :plug, "0.8.2"},
   "poison": {:hex, :poison, "1.2.0"},
-  "ranch": {:hex, :ranch, "1.0.0"}}
+  "ranch": {:hex, :ranch, "1.0.0"},
+  "sfmt": {:hex, :sfmt, "0.10.1"}}
