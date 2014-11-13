@@ -18,22 +18,17 @@ input
   margin-top: 16em;
 }
 
-.title {
-  text-align: center;
-  font-size: x-large;
-  color: white;
-}
-
 .roll-form {
   margin-top: 1.5em;
   margin-bottom: 1.5em;
   display: block;
+  text-align: center;
 }
 
 .roll-form-input {
   margin: 0 auto;
-  display: block;
-  width: 50%;
+  display: inline;
+  width: 60%;
   text-align: center;
 }
 
@@ -41,10 +36,6 @@ input
   text-align: center;
   font-weight: bold;
   color: #083B73;
-}
-
-.output-header {
-  text-decoration: underline;
 }
 
 .older-1 {

@@ -1,10 +1,9 @@
 <div class="main">
-  <h1 class="title">Roll!</h1>
   <form class="roll-form" onsubmit="event.preventDefault(); do_roll();">
-    <input class="roll-form-input" type="text" name="roll_expr" >
+    <input class="roll-form-input" type="text" name="roll_expr" /><input class="roll-it" type="submit" value="Roll" />
   </form>
   <div class="output">
-    <h3 class="output-header">Output</h3>
+    <h3>Output</h3>
     <p class="current">&nbsp;</p>
     <p class="older-1"></p>
     <p class="older-2"></p>
