@@ -3,7 +3,7 @@ defmodule Infiniteroll.Mixfile do
 
   def project do
     [app: :infiniteroll,
-     version: "0.0.1",
+     version: "0.0.2",
      elixir: "~> 1.0",
      elixirc_paths: ["lib", "web"],
      compilers: [:phoenix] ++ Mix.compilers,
@@ -25,6 +25,6 @@ defmodule Infiniteroll.Mixfile do
     [{:phoenix, "0.5.0"},
      {:cowboy, "~> 1.0"},
      { :exrm, "~> 0.14.11" },
-     {:dicer, "0.3.0"}]
+     {:dicer, "0.4.0"}]
   end
 end
