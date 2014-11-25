@@ -15,7 +15,7 @@ input
 .main {
   background-color: #28ABE3;
   width: 50%;
-  margin-top: 16em;
+  margin-top: 6em;
 }
 
 .roll-form {
@@ -27,6 +27,7 @@ input
 
 .roll-form-input {
   margin: 0 auto;
+  margin-top: 1em;
   display: inline;
   width: 60%;
   text-align: center;
