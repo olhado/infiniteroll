@@ -1,10 +1,12 @@
 defmodule Infiniteroll.PageController do
   use Phoenix.Controller
   alias Poison, as: JSON
+  require Logger
+  require Dicer
 
   plug :action
 
-  def roll(conn, %{"roll_expr" => expr}) do
+  def roll(conn, %{"roll_expr" => expr}) when is_binary(expr) do
     result =
       expr |> Dicer.roll
 
