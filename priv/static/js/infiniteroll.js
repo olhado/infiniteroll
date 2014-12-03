@@ -22,7 +22,7 @@ function do_roll() {
           document.querySelector('.current').innerHTML="<span style=\"color:red;\">"+input+" = "+json_data.error+"</span>";
         }
         else {
-          document.querySelector('.current').innerHTML=input+" = "+json_data.ok;
+          document.querySelector('.current').innerHTML=input+ " [" + json_data.details[0].counted_values+"] = "+json_data.ok;
         }
       }
     }

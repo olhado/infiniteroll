@@ -11,8 +11,8 @@ defmodule Infiniteroll.PageController do
       expr |> Dicer.roll
 
     case result do
-      {:ok, _parsed_roll, value} ->
-        json conn, JSON.encode!(%{"ok" => value})
+      {:ok, parsed_roll, value} ->
+        json conn, JSON.encode!(%{"ok" => value, "details" => parsed_roll})
       {:error, messages} ->
         json conn, JSON.encode!(%{"error" => messages})
     end

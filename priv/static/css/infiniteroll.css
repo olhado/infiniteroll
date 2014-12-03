@@ -1,21 +1,28 @@
+html {
+  height: 100%;
+}
+
 body {
-  background-color: #F7FAD8;
+  background: -webkit-linear-gradient(#a0ffa0, #809080); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#a0ffa0, #809080); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#a0ffa0, #809080); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#a0f0a0, #90f090); /* Standard syntax */
 }
 
 div {
-  border-radius: 1em;
+  border-radius: .4em;
   margin: 0 auto;
 }
 
-input  
-{ 
- border-radius: 1em;
+input {
+  border-radius: 1em;
 }
 
 .main {
-  background-color: #28ABE3;
-  width: 50%;
-  margin-top: 6em;
+  background-color: white;
+  width: 80%;
+  margin-top: 5em;
+  border: 3px solid #303030;
 }
 
 .roll-form {
@@ -29,7 +36,7 @@ input
   margin: 0 auto;
   margin-top: 1em;
   display: inline;
-  width: 60%;
+  width: 99%;
   text-align: center;
 }
 
