@@ -31,6 +31,6 @@ defmodule Infiniteroll.PageController do
   end
 
   def error(conn, _params) do
-    render conn, "error"
+    json conn, JSON.encode!(%{"error" => ["Unexpected error!"]})
   end
 end
