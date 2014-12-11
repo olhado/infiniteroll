@@ -18,11 +18,13 @@ function do_roll() {
     if (xmlhttp.readyState==4 && xmlhttp.status==200)
       {
         var json_data=eval("("+xmlhttp.responseText+")")
-        if (json_data.ok === null || json_data.ok === undefined) {
-          document.querySelector('.current').innerHTML="<span style=\"color:red;\">"+input+" = "+json_data.error+"</span>";
+        if (json_data.status === "error") {
+          // document.querySelector('.current').innerHTML="<span style=\"color:red;\">" + input + " = " + json_data.details[0] + "</span>";
+          document.querySelector('.current').innerHTML="<span style=\"color:red;\">" + json_data + "</span>";
         }
         else {
-          document.querySelector('.current').innerHTML=input+ " [" + json_data.details[0].counted_values+"] = "+json_data.ok;
+          // document.querySelector('.current').innerHTML=input + " :|: " + json_data.rolls[0].text + " = " + json_data.rolls[0].result;
+          document.querySelector('.current').innerHTML=json_data.rolls[0].roll.join("") + " = " + json_data.rolls[0].result;
         }
       }
     }

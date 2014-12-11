@@ -12,14 +12,14 @@ defmodule Infiniteroll.PageController do
 
     case result do
       {:ok, parsed_roll, value} ->
-        json conn, JSON.encode!(%{"ok" => value, "details" => parsed_roll})
+        json conn, JSON.encode!(%{"status" => "ok", "rolls"=> [%{"result" => value, "roll" => parsed_roll}]})
       {:error, messages} ->
-        json conn, JSON.encode!(%{"error" => messages})
+        json conn, JSON.encode!(%{"status" => "error", "messages" => messages})
     end
   end
 
   def roll(conn, _params) do
-    json conn, JSON.encode!(%{"error" => ["Invalid input!"]})
+    json conn, JSON.encode!(%{"status" => "error", "messages" => ["Invalid input!"]})
   end
 
   def index(conn, _params) do
@@ -31,6 +31,6 @@ defmodule Infiniteroll.PageController do
   end
 
   def error(conn, _params) do
-    json conn, JSON.encode!(%{"error" => ["Unexpected error!"]})
+    json conn, JSON.encode!(%{"status" => "error", "messages" => ["Unexpected error!"]})
   end
 end
